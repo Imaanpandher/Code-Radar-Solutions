@@ -6,7 +6,7 @@ int main() {
         for(int j=1;j<=a;j++){
             if(i==1 || j==1||j==a||i==a)
             {
-                print("*")
+                printf("*");
             }
         }
     }
