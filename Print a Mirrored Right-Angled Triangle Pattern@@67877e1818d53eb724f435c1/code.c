@@ -7,10 +7,10 @@ int main() {
         {
             printf(" ");
         }
-        for(int k=1;k<=a;k++)
-        {
-            printf("*");
-        }
+        // for(int k=1;k<=a;k++)
+        // {
+        //     printf("*");
+        // }
         printf("\n");
     }
     return 0;
