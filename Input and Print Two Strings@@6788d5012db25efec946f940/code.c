@@ -1,8 +1,8 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    char Name[100];
-    fgets(Name, 100,stdin);
-    printf("You entered: %s", Name);
+    char Name[];
+    char Name1[];
+    printf("You entered: %s and %s", Name, Name1);
     return 0;
 }
