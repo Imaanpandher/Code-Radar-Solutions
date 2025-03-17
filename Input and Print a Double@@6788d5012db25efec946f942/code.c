@@ -1,6 +1,8 @@
-// Your code here...char Name[20];
-    printf("Enter your name: ");
-    fgets(Name, 20, stdin); it except spaces
-    printf("Your name is %s", Name);
+#include <stdio.h>
+int main(){
+    float a;
+    scanf("%.4f", &a);
+    printf("You entered: %f", a);
     return 0;
+}
     
